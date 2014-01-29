@@ -1,6 +1,6 @@
-# Minecraft server for 1.6.4
+# Minecraft server for 1.7.2
 
-FROM ubuntu
+FROM ubuntu:12.04
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
