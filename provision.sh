@@ -2,4 +2,4 @@
 
 cd /vagrant/containers/minecraft
 sudo docker build -t="minecraft" .
-docker run -d minecraft
+docker run -p 25565:25565 -d minecraft
